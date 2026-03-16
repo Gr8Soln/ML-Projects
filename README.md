@@ -8,17 +8,16 @@ This repository is meant to house a growing variety of ML, data science, and AI-
 
 ## Repository Structure
 
-The repository is organized to easily navigate through various projects and their respective datasets:
+The repository organizes each project into its own folder containing both the code and the relevant datasets:
 
-- `projects/`: Contains the source code, Jupyter notebooks, and scripts for individual ML projects.
-  - `house-price-prediction/`: A beginner-level project predicting house prices using basic regression modeling.
-- `datasets/`: An organized collection of CSVs and data files utilized across the various projects.
+- `house-price-prediction/`: A beginner-level project predicting house prices using basic regression modeling. Contains the `house_price_prediction.ipynb` notebook and the `house_prices.csv` dataset.
+- _(More projects to be added)_
 
 ## Tech Stack & Languages
 
 - **Python** (Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn)
 - **Jupyter Notebooks** for interactive ML workflows.
-- *Future additions:* **Go** and other tools for productionizing and experimenting with ML models.
+- _Future additions:_ **Go** and other tools for productionizing and experimenting with ML models.
 
 ## Getting Started
 
@@ -27,6 +26,6 @@ To dive into these projects locally:
 1. Clone this repository
 2. Set up your Python environment (e.g. `python -m venv venv`)
 3. Install the required libraries (normally defined in individual project folders or notebooks)
-4. Open the `projects/` directory and run the notebooks!
+4. Navigate into the specific project directory (e.g., `cd house-price-prediction`) and run the script/notebook!
 
 Feel free to explore, experiment, and use these projects as a foundation to learn machine learning concepts!
